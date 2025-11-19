@@ -1,5 +1,30 @@
 {
-  "plugins": [
-    "expo-router"
-  ]
+  "expo": {
+    "name": "Desafio-Conversor-Moedas",
+    "slug": "Desafio-Conversor-Moedas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true
+    },
+
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.alceu_botelho.DesafioConversorMoedas"
+    },
+
+    "plugins": [
+      "expo-router"
+    ],
+
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3732fd8e-f626-4fe1-886b-4cb7ceb04bef"
+      }
+    }
+  }
 }
