@@ -71,5 +71,5 @@ const styles = StyleSheet.create({
   row: { flexDirection: "row", justifyContent: "space-between", paddingVertical: 12 },
   code: { fontSize: 16, fontWeight: "600" },
   value: { fontSize: 16 },
-  sep: { height: 1, backgroundColor: "#eee" },
+  sep: { height: 1, backgroundColor: "#0400ffff" },
 });
