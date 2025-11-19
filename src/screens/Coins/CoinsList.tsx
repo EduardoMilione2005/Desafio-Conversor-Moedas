@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     paddingVertical: 14,
     borderBottomWidth: 1,
-    borderColor: "#0019f7ff",
+    borderColor: "#0011ffff",
   },
   text: {
     fontSize: 18,

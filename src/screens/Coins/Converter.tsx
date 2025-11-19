@@ -12,6 +12,7 @@ export default function Converter() {
   const [rate, setRate] = useState<number | null>(null);
 
   useEffect(() => {
+    // Buscar lista de códigos a partir de uma base
     fetchRates("USD").then(r => {
       setCurrencies(Object.keys(r.conversion_rates));
     }).catch(()=>Alert.alert("Erro ao carregar moedas"));
